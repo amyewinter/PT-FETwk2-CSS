@@ -1,0 +1,168 @@
+/* CSS HEX Color Scheme
+--dark-slate-blue: #483d8bff;
+--russian-green: #6f8f72ff;
+--mint-cream: white;
+--glossy-grape: #a799b7ff;
+--davys-grey: #504b43ff;
+
+*/
+
+/* page styles */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+  color:#504b43ff;
+  font-size:0.9rem;
+}
+
+p {
+  color:#504b43ff;
+  padding-bottom:0.5rem;
+}
+
+a {
+  color:#504b43ff;
+}
+
+div {
+  display:inline-block;
+}
+
+ul {
+  margin-top:1rem;
+  margin-bottom: 2rem;
+}
+
+table {
+  padding: 0.5rem;
+  border-collapse:collapse;
+  margin-bottom:2rem;
+  width:60%;
+}
+
+td {
+  padding: 1rem;
+}
+
+img {
+  padding: 1rem 0.5rem;
+  width: 15%;
+}
+
+h2, h3, h4
+{
+  color: #483d8b;
+}
+
+details {
+  margin-bottom: 2rem;
+  max-width: max-content;
+ /* padding:  .5rem 1rem;*/
+ /* max-width:35%;*/
+} 
+
+details > summary { 
+  cursor: pointer;
+  padding: .5rem 1rem;
+  background: #a49ec5;
+  color: white;
+  font-weight:400;
+}
+
+details > summary > * {
+  display: inline;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:5px;
+  background-color: white;
+}
+
+input[type=submit] {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: darkslateblue;
+  color: white;
+  border-radius:5px;
+}
+
+#content {
+  margin-left:10%;
+  padding: 1rem 0.5rem;
+}
+
+#nav {
+  margin-top: 2rem;
+  margin-left: -40px;
+  padding-top: 1rem;
+  padding-left:none;
+  font-size: 80%;
+  display:inline;
+ 
+}
+#nav li {
+  display: inline;
+  list-style-type: none;
+  padding-top:2rem;
+}
+
+#nav li a {
+  color: darkslateblue;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-decoration:none;
+  transition: ease 1s;
+  padding: 1rem;
+  display: inline;
+}
+
+#nav li a:hover {
+  background-color:#a799b7ff;
+  color:white;
+}
+
+#welcome {
+  background: no-repeat url(../images/watercolor-bg.png);
+  color: white;
+  padding: 1rem 10rem 1rem 1rem;
+  margin-right:20rem;
+  margin-bottom:2rem;
+}
+
+#welcome p {
+  color: white;
+}
+
+#header {
+  background: no-repeat url(../images/watercolor-bg-header.jpg);
+  color: white;
+  padding: 1rem 0.5rem;
+}
+
+.lg-img {
+  width: 40%;
+}
+
+.hg-img{
+  width: 60%;
+}
+
+.even {
+  background-color:#504b43ff;
+  color: white;
+}
+
+.odd {
+  background-color: darkslateblue;
+  color: white;
+}
+
+.big {
+height: 5rem;
+margin-bottom:5%;
+}
